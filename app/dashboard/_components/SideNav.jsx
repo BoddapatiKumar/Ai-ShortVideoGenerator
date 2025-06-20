@@ -18,7 +18,7 @@ const SideNav = () => {
     {
       id: 2,
       name: "Create-new",
-      path: "/create-new",
+      path: "/dashboard/create-new",
       icon: FileVideo,
     },
     {
@@ -34,6 +34,7 @@ const SideNav = () => {
       icon: CircleUser,
     },
   ];
+  
   return (
     <div className="w-64 shadow-md h-screen p-5">
       <div className="grid gap-2">
