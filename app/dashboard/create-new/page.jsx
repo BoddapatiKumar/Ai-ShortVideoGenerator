@@ -13,7 +13,7 @@ const CreateNew = () => {
   const [videoScript,setVideoScript]=useState({});
 
   //get video Script
-
+    // making an api call 
   const getVideoScript = async () => {
     setLoading(true);
     const prompt =
